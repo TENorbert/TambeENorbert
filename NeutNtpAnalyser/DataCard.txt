@@ -1,0 +1,22 @@
+
+#This is the data card for the input of M2M3 analysis and TopMassFitter 
+# Auther : SCKao - UMN
+#
+
+# root files directory
+RootFiles =
+
+# Folder to store results
+Path = Results/
+
+# plot type : png / gif / eps / jpg / pdf 
+PlotType = png
+
+# Files , '+' is the flag for TChain,  
+TheData = (Photon_2012A_AOD_MC)
+#TheData = ( data+ )
+#dataChain = ( genscan1k, genscan2k )
+
+# -1 : all of events
+ProcessEvents = -1
+
